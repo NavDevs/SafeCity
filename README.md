@@ -84,7 +84,7 @@ flutter run
 We have created a dedicated website to distribute the app:
 
 - **Website**: [https://nas23ise-dot.github.io/SafeCity/](https://nas23ise-dot.github.io/SafeCity/)
-- **Direct APK Download**: [Download APK](https://nas23ise-dot.github.io/SafeCity/downloads/safecity-app.apk)
+- **Direct APK Download**: [Download APK](https://nas23ise-dot.github.io/SafeCity/downloads/safecity-app.apk) (Available after building)
 
 ### Local Installation
 
@@ -98,6 +98,11 @@ To install the app on your mobile device:
    - Generate release APK with `flutter build apk --release`
    - The APK file will be located at `build/app/outputs/flutter-apk/app-release.apk`
    - Transfer and install the APK file to your mobile device
+
+3. **GitHub Pages Distribution**:
+   - After building the APK, copy it to the downloads folder:
+   - `cp build/app/outputs/flutter-apk/app-release.apk downloads/safecity-app.apk`
+   - Then the download link on the GitHub Pages site will work
 
 3. **Web Distribution**:
    - Build the APK as described above
