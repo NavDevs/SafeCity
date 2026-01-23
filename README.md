@@ -83,7 +83,7 @@ flutter run
 
 The app can be distributed through multiple channels:
 
-- **GitHub Releases** (Recommended): [Download Latest Release](https://github.com/nas23ise-dot/SafeCity/releases) (Best for mobile users)
+- **Google Drive** (Recommended): [Download APK from Google Drive](https://drive.google.com/drive/folders/1Osf8jMaN_GrT0kpfCPdcXufKZ2qOa4-k?usp=sharing) (Access the APK file from our Google Drive folder)
 - **Distribution Website**: [https://nas23ise-dot.github.io/SafeCity/](https://nas23ise-dot.github.io/SafeCity/) (Provides build instructions)
 
 ### Local Installation
@@ -99,11 +99,11 @@ To install the app on your mobile device:
    - The APK file will be located at `build/app/outputs/flutter-apk/app-release.apk`
    - Transfer and install the APK file to your mobile device
 
-3. **GitHub Releases Distribution** (Recommended):
-   - Create a new release in GitHub
-   - Upload the APK file as an asset to the release
-   - Users can download directly from the releases page
-   - This is the best method for mobile users
+3. **Google Drive Distribution** (Recommended):
+   - Upload the APK file to Google Drive
+   - Share the direct download link
+   - Users can download directly from Google Drive
+   - This is the best method for mobile users due to file size limitations
 
 3. **Web Distribution**:
    - Build the APK as described above
