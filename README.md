@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Safe City - Your Safety Companion
 
 Safe City is a comprehensive safety application designed to provide users with real-time security features, emergency assistance, and community support. The app leverages GPS technology, mapping services, and community engagement to create a safer environment for users.
@@ -159,3 +160,21 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - Provider package for state management
 - Geolocator for location services
 - The community volunteers who make safety possible
+=======
+# Safe City
+
+A new Flutter project - Your Safety Companion.
+
+## Getting Started
+
+This project is a starting point for a Flutter application.
+
+A few resources to get you started if this is your first Flutter project:
+
+- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+
+For help getting started with Flutter development, view the
+[online documentation](https://docs.flutter.dev/), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.
+>>>>>>> 2949d0b8221f82aa3b925fbb3755f80a4d14d41d
