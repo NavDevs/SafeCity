@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Safe City APK - Build Required</title>
+    <title>Safe City APK - GitHub Size Limit</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -46,12 +46,23 @@
             border-radius: 5px;
             margin: 10px;
         }
+        .alert {
+            background: #fff3cd;
+            color: #856404;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 20px 0;
+            border: 1px solid #ffeaa7;
+        }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Safe City APK - Build Required</h1>
-        <p>The APK file is not yet available because it needs to be built from the source code.</p>
+        <h1>Safe City APK - Download Instructions</h1>
+        <div class="alert">
+            <strong>Note:</strong> The APK file is not stored on GitHub due to size limitations (>100MB).
+            You need to build it from the source code.
+        </div>
         
         <div class="instructions">
             <h2>To Build the APK:</h2>
@@ -71,7 +82,13 @@
             <pre>build/app/outputs/flutter-apk/app-release.apk</pre>
         </div>
         
-        <p>After building, the APK can be downloaded from this location.</p>
+        <div class="instructions">
+            <h2>Alternative Installation Methods:</h2>
+            <p><strong>Direct Development Install:</strong></p>
+            <pre>git clone https://github.com/nas23ise-dot/SafeCity.git
+cd SafeCity
+flutter run</pre>
+        </div>
         
         <a href="../" class="btn">Return to Website</a>
         <a href="https://github.com/nas23ise-dot/SafeCity" class="btn">View Repository</a>

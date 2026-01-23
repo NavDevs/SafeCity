@@ -3,7 +3,7 @@
 This directory contains the APK files for the Safe City Android app.
 
 ## Current Status
-The main APK file (`safecity-app.apk`) is not yet available in this repository because it needs to be built from the source code.
+The main APK file (`safecity-app.apk`) is not stored in this repository due to GitHub's 100MB file size limit. The APK file is approximately 114MB, which exceeds this limit.
 
 ## How to Build the APK
 
