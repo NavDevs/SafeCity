@@ -84,7 +84,7 @@ flutter run
 We have created a dedicated website to distribute the app:
 
 - **Website**: [https://nas23ise-dot.github.io/SafeCity/](https://nas23ise-dot.github.io/SafeCity/)
-- **Direct APK Download**: [Download APK](https://nas23ise-dot.github.io/SafeCity/downloads/safecity-app.apk) (Available after building)
+- **Direct APK Download**: [Download APK](https://nas23ise-dot.github.io/SafeCity/downloads/safecity-app.apk) (Build Required - see instructions below)
 
 ### Local Installation
 
