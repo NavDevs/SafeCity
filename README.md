@@ -84,7 +84,7 @@ flutter run
 The app can be distributed through multiple channels:
 
 - **Google Drive** (Recommended): [Download APK from Google Drive](https://drive.google.com/drive/folders/1Osf8jMaN_GrT0kpfCPdcXufKZ2qOa4-k?usp=sharing) (Access the APK file from our Google Drive folder)
-- **Distribution Website**: [https://nas23ise-dot.github.io/SafeCity/](https://nas23ise-dot.github.io/SafeCity/) (Provides build instructions)
+
 
 ### Local Installation
 
