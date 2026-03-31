@@ -55,10 +55,33 @@
             border: 1px solid #ffeaa7;
         }
     </style>
+    <script>
+        // Check if the user is trying to access the APK file directly
+        window.addEventListener('DOMContentLoaded', (event) => {
+            const path = window.location.pathname;
+            if (path.endsWith('/safecity-app.apk')) {
+                // Show a message about building the APK
+                document.getElementById('apk-info').style.display = 'block';
+                document.getElementById('instructions').style.display = 'none';
+            }
+        });
+    </script>
 </head>
 <body>
     <div class="container">
         <h1>Safe City APK - Download Instructions</h1>
+        <div id="apk-info" style="display:none;">
+            <div class="alert">
+                <strong>APK Building Required:</strong> The SafeCity APK file is not stored on GitHub due to size limitations (>100MB).
+                You need to build it from the source code.
+            </div>
+            <div class="instructions">
+                <h2>Quick Build Command:</h2>
+                <pre>git clone https://github.com/nas23ise-dot/SafeCity.git && cd SafeCity && flutter pub get && flutter build apk --release</pre>
+                <p>After building, find your APK at: <code>build/app/outputs/flutter-apk/app-release.apk</code></p>
+            </div>
+        </div>
+        <div id="instructions">
         <div class="alert">
             <strong>Note:</strong> The APK file is not stored on GitHub due to size limitations (>100MB).
             You need to build it from the source code.
@@ -90,6 +113,7 @@ cd SafeCity
 flutter run</pre>
         </div>
         
+        </div> <!-- End of instructions div -->
         <a href="../" class="btn">Return to Website</a>
         <a href="https://github.com/nas23ise-dot/SafeCity" class="btn">View Repository</a>
     </div>
