@@ -837,37 +837,7 @@ img{max-width:100%}
 .dbf2{top:120px;right:-25px;animation:chip-b 7.5s ease-in-out infinite}
 .dbf3{bottom:45px;left:-85px;animation:chip-c 8s ease-in-out infinite}
 
-/* Project Roadmap Bento Cards */
-.bento-grid {
-  display: grid;
-  gap: 32px;
-  margin-top: 48px;
-}
-.bento-card {
-  background: var(--card);
-  backdrop-filter: blur(22px);
-  -webkit-backdrop-filter: blur(22px);
-  border: 1px solid var(--card-b);
-  border-radius: var(--r-lg);
-  padding: 40px;
-  box-shadow: var(--sh-card);
-  transition: all 0.4s cubic-bezier(0.16,1,0.3,1);
-}
-.bento-card:hover {
-  transform: translateY(-8px);
-  box-shadow: var(--sh-card-hov);
-}
-.bc-emoji {
-  font-size: 2.5rem;
-  margin-bottom: 20px;
-}
-.bc-title {
-  font-size: 1.5rem;
-  font-weight: 800;
-  color: var(--fg);
-  margin-bottom: 16px;
-  letter-spacing: -0.02em;
-}
+/* Project Roadmap List Styles */
 .bc-list {
   color: var(--text-sec);
   margin-left: 20px;
