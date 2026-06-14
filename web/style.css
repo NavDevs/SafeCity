@@ -838,6 +838,18 @@ img{max-width:100%}
 .dbf3{bottom:45px;left:-85px;animation:chip-c 8s ease-in-out infinite}
 
 /* Project Roadmap List Styles */
+.roadmap-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 32px;
+  margin-top: 40px;
+}
+@media(min-width: 768px) {
+  .roadmap-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
 .bc-list {
   color: var(--text-sec);
   margin-left: 20px;
