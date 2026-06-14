@@ -1,167 +1,192 @@
-# Safe City - Your Safety Companion
+<div align="center">
 
-Safe City is a comprehensive safety application designed to provide users with real-time security features, emergency assistance, and community support. The app leverages GPS technology, mapping services, and community engagement to create a safer environment for users.
+<img src="web/safecity-logo.png" width="120" alt="SafeCity Logo"/>
 
-## Features
+# 🛡️ SafeCity — Your Safety Companion
+
+**A full-stack safety ecosystem packed into one lightweight Android app.**  
+Built as a college project prototype for Smart India Hackathon 2025.
+
+[![Live Website](https://img.shields.io/badge/🌐%20Live%20Website-safe--cty.netlify.app-7C3AED?style=for-the-badge)](https://safe-cty.netlify.app)
+[![Download APK](https://img.shields.io/badge/⬇️%20Download%20APK-v1.0.0-10B981?style=for-the-badge)](https://github.com/NavDevs/SafeCity/releases/latest/download/SafeCity.apk)
+[![GitHub Release](https://img.shields.io/github/v/release/NavDevs/SafeCity?style=for-the-badge&color=7C3AED)](https://github.com/NavDevs/SafeCity/releases/tag/v1.0.0)
+[![Flutter](https://img.shields.io/badge/Flutter-3.35.2-02569B?style=for-the-badge&logo=flutter)](https://flutter.dev)
+
+> ⚠️ **Prototype Application** — This is a college project for academic evaluation only. Not available on the Google Play Store or Apple App Store. Not intended for production use.
+
+</div>
+
+---
+
+## 🌐 Live Website
+
+Visit the landing page to learn more and download the APK:
+
+### 👉 [https://safe-cty.netlify.app](https://safe-cty.netlify.app)
+
+---
+
+## ⬇️ Download
+
+| Platform | Link |
+|---|---|
+| 🤖 Android APK (Direct) | [**Download SafeCity.apk**](https://github.com/NavDevs/SafeCity/releases/latest/download/SafeCity.apk) |
+| 📦 GitHub Release | [View Release v1.0.0](https://github.com/NavDevs/SafeCity/releases/tag/v1.0.0) |
+
+**Requirements:** Android 5.0 (API 21) or higher · ~114 MB
+
+**Installation steps:**
+1. Download `SafeCity.apk` from the link above
+2. On your Android phone, go to **Settings → Security → Install from unknown sources** → Enable
+3. Open the downloaded APK and tap **Install**
+4. Launch SafeCity and complete setup!
+
+---
+
+## ✨ Features
 
 ### 📍 Real-Time Location & Mapping
-- Interactive map showing user's current location
-- Security status indicators (Safe, Caution, High Risk zones)
-- Full-screen map view for detailed navigation
-- Location sharing during emergencies
+- Interactive Google Maps showing your exact position with live GPS
+- Security zone colour-coding — **Safe** (green) · **Caution** (amber) · **High Risk** (red)
+- Full-screen map view with instant location refresh
 
-### 🚨 Emergency Response System
-- **Physical SOS**: Immediate physical danger alerts
-- **Cyber SOS**: Digital safety and cyberbullying assistance
-- **Emergency Contacts**: Quick access to personal emergency contacts
-- Instant notification to contacts, authorities, and community volunteers
-
-### 🔐 User Authentication & Profile Management
-- Secure login with personal information
-- Profile management with contact details
-- Emergency contact setup during registration
+### 🚨 Emergency SOS System
+- **One-tap Physical SOS** — instantly alerts emergency contacts + nearby volunteers
+- **Cyber SOS** — digital safety resources and cyberbullying assistance
+- Sub-second broadcast to contacts and authorities
 
 ### 🛡️ 3-Layer Protection System
-- **Surveillance Layer**: Real-time monitoring of safe zones
-- **Community Layer**: Volunteer-based safety patrols
-- **Technology Layer**: Advanced location tracking and alerts
-
-### 🌍 Indian States Explorer
-- Interactive map of Indian states with safety information
-- State-wise security details and statistics
-- Location-based safety recommendations
+| Layer | Description |
+|---|---|
+| 📷 Surveillance | Real-time safe zone monitoring with colour-coded status |
+| 🤝 Community | Volunteer-based safety patrol network |
+| ⚡ Technology | Advanced GPS tracking + encrypted on-device storage |
 
 ### 👥 Community Hub
-- Active volunteer network
-- Request patrol services in your area
-- Real-time community activity feed
+- Active volunteer network with real-time availability
+- Request safety patrols in your area
 - Incident reporting and tracking
 
+### 🌍 Indian States Explorer
+- Interactive map of all 28+ Indian states
+- State-wise safety statistics and security details
+
 ### 🏠 Home Dashboard
-- Personalized safety score
+- Personalised safety score
 - Quick access to all safety features
-- Account information and settings
-- Dark/light mode support
+- Dark / light mode support
 
-## Technical Stack
+---
 
-- **Framework**: Flutter (Dart)
-- **Maps**: Google Maps Flutter
-- **State Management**: Provider
-- **Location Services**: Geolocator
-- **Permissions**: Permission Handler
-- **Data Storage**: Shared Preferences
-- **UI Components**: Material Design 3
+## 🔒 Permissions Required
 
-## Installation
+| Permission | Purpose |
+|---|---|
+| 📍 Location | Real-time GPS tracking and safe zone mapping |
+| 📞 Phone | Access and alert emergency contacts |
+| 🌐 Internet | Map data and emergency broadcasts |
 
-1. Clone the repository:
+---
+
+## ⚙️ Tech Stack
+
+| Technology | Purpose |
+|---|---|
+| 🦋 Flutter (Dart) | Cross-platform mobile framework |
+| 🗺️ Google Maps Flutter | Interactive map integration |
+| 🔄 Provider | State management |
+| 📡 Geolocator | GPS & location services |
+| 🎨 Material Design 3 | UI components |
+| 💾 SharedPreferences | On-device encrypted storage |
+| 🌐 HTML / CSS / JS | Landing page (Claymorphism design) |
+| 🚀 Netlify | Website hosting |
+
+---
+
+## 🚀 Running Locally
+
 ```bash
-git clone <repository-url>
-```
-
-2. Navigate to the project directory:
-```bash
+# 1. Clone the repo
+git clone https://github.com/NavDevs/SafeCity.git
 cd SafeCity
-```
 
-3. Install dependencies:
-```bash
+# 2. Install Flutter dependencies
 flutter pub get
-```
 
-4. Run the application:
-```bash
+# 3. Run on a connected device or emulator
 flutter run
+
+# 4. Build a release APK
+flutter build apk --release
+# Output: build/app/outputs/flutter-apk/app-release.apk
 ```
 
-## Download & Deployment
+---
 
-**Note**: This app is currently under development as a college project and is not yet available for public download from official app stores.
+## 🌐 Website Development
 
-### Distribution Methods
+The landing page lives in the `web/` directory — plain HTML, CSS, and JS with a Claymorphism design system.
 
-The app can be distributed through multiple channels:
+```bash
+# Serve locally
+python -m http.server 5500 --directory web
 
-- **Google Drive** (Recommended): [Download APK from Google Drive](https://drive.google.com/drive/folders/1Osf8jMaN_GrT0kpfCPdcXufKZ2qOa4-k?usp=sharing) (Access the APK file from our Google Drive folder)
-- **Distribution Website**: [https://nas23ise-dot.github.io/SafeCity/](https://nas23ise-dot.github.io/SafeCity/) (Provides build instructions)
+# Then open http://localhost:5500
+```
 
-### Local Installation
+Auto-deploys to [safe-cty.netlify.app](https://safe-cty.netlify.app) on every push to `main`.
 
-To install the app on your mobile device:
+---
 
-1. **Development Build**:
-   - Connect your mobile device via USB with developer options enabled
-   - Run `flutter run` to deploy directly to your device
+## 📁 Project Structure
 
-2. **Release APK**:
-   - Generate release APK with `flutter build apk --release`
-   - The APK file will be located at `build/app/outputs/flutter-apk/app-release.apk`
-   - Transfer and install the APK file to your mobile device
+```
+SafeCity/
+├── android/                  # Android native files & app icons
+├── lib/                      # Flutter Dart source code
+│   └── screens/              # App screens (Home, Map, SOS, etc.)
+├── web/                      # Landing page (deployed to Netlify)
+│   ├── index.html            # Main page
+│   ├── style.css             # Claymorphism design system
+│   ├── app.js                # Interactivity & animations
+│   └── icons/                # App icons
+├── .github/workflows/        # CI/CD (GitHub Actions)
+├── netlify.toml              # Netlify deployment config
+└── README.md
+```
 
-3. **Google Drive Distribution** (Recommended):
-   - Upload the APK file to Google Drive
-   - Share the direct download link
-   - Users can download directly from Google Drive
-   - This is the best method for mobile users due to file size limitations
+---
 
-3. **Web Distribution**:
-   - Build the APK as described above
-   - Place the APK file in the `web/downloads/` directory
-   - Deploy the `web/` directory to a static hosting service (GitHub Pages, Netlify, etc.)
-
-4. **App Store Distribution**:
-   - For production deployment, build an app bundle with `flutter build appbundle`
-   - Upload the app bundle to Google Play Console for distribution
-
-## Permissions Required
-
-- **Location Access**: For real-time location tracking and mapping
-- **Phone**: To access emergency contacts
-- **Internet**: For map data and emergency notifications
-
-## Screenshots
-
-The application includes various screens:
-- Welcome/Login Screen
-- Home Dashboard
-- Interactive Map View
-- Emergency Contacts Management
-- State Detail Views
-- Account Management
-
-## How to Use
-
-1. **Setup**: Enter your personal information and emergency contacts during initial setup
-2. **Monitor**: Check your safety score and location status on the dashboard
-3. **Navigate**: Use the interactive map to explore safe zones and state details
-4. **Report**: Use SOS buttons when in danger to instantly alert contacts and authorities
-5. **Engage**: Participate in the community hub by requesting or offering safety patrols
-
-## Security Features
-
-- Encrypted local storage of user information
-- Immediate location sharing during emergencies
-- Community-based safety network
-- Real-time risk assessment
-- Cyber safety awareness resources
-
-## Contributing
+## 🤝 Contributing
 
 1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Make your changes
-4. Commit your changes (`git commit -m 'Add amazing feature'`)
-5. Push to the branch (`git push origin feature/amazing-feature`)
-6. Open a Pull Request
+2. Create a feature branch (`git checkout -b feature/my-feature`)
+3. Commit your changes (`git commit -m 'feat: add my feature'`)
+4. Push to the branch (`git push origin feature/my-feature`)
+5. Open a Pull Request
 
-## License
+---
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+## 📄 License
 
-## Acknowledgments
+This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
 
-- Google Maps Flutter plugin for mapping functionality
-- Provider package for state management
-- Geolocator for location services
-- The community volunteers who make safety possible
+---
+
+## 🙏 Acknowledgments
+
+- [Google Maps Flutter](https://pub.dev/packages/google_maps_flutter) — mapping functionality
+- [Geolocator](https://pub.dev/packages/geolocator) — GPS & location services
+- [Provider](https://pub.dev/packages/provider) — state management
+- [Nunito & DM Sans](https://fonts.google.com) — typography
+- Community volunteers who make safety possible 💜
+
+---
+
+<div align="center">
+
+Made with 💜 by **NavDevs** · College Project · 2024
+
+[🌐 Website](https://safe-cty.netlify.app) · [⬇️ Download APK](https://github.com/NavDevs/SafeCity/releases/latest/download/SafeCity.apk) · [📦 Releases](https://github.com/NavDevs/SafeCity/releases)
+
+</div>
