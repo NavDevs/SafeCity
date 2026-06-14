@@ -946,4 +946,11 @@ img{max-width:100%}
   .dl-title{font-size:2rem}
   .footer{padding:40px 20px 20px}
   .container{padding:0 16px}
+
+  /* Keep hero phone floating chips strictly inside mobile viewport */
+  .float-chip { padding: 6px 12px; font-size: 0.75rem; white-space: normal; text-align: center; max-width: 120px; }
+  .fc1 { left: -15px; top: -5px; }
+  .fc2 { right: -15px; top: 80px; }
+  .fc3 { left: -15px; bottom: 110px; }
+  .fc4 { right: -15px; bottom: 0px; }
 }
