@@ -356,6 +356,45 @@
 </section>
 
 <!-- ═══════════════════════════════════════════
+     ROADMAP / SIH 2025
+══════════════════════════════════════════════ -->
+<section class="section" id="roadmap" aria-labelledby="rm-title">
+  <div class="container">
+    <div class="section-head">
+      <div class="eyebrow">🚀 Journey</div>
+      <h2 class="section-title" id="rm-title">Project Roadmap</h2>
+      <p class="section-sub">SafeCity was proudly <strong>selected and presented for the Smart India Hackathon (SIH) 2025</strong> as a next-generation safety solution.</p>
+    </div>
+
+    <div class="bento-grid" style="grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));">
+      <div class="bento-card reveal">
+        <div class="bc-emoji">✅</div>
+        <h3 class="bc-title">Developed Till Now</h3>
+        <ul style="color:var(--text-sec); margin-left: 20px; font-size: 1.05rem; line-height: 1.8; margin-top: 10px;">
+          <li>Real-time GPS tracking & Google Maps</li>
+          <li>One-tap Emergency SOS broadcast</li>
+          <li>Basic 3-Layer Protection UI</li>
+          <li>Offline on-device encrypted storage</li>
+          <li>Cross-platform Flutter framework</li>
+        </ul>
+      </div>
+
+      <div class="bento-card reveal">
+        <div class="bc-emoji">🔮</div>
+        <h3 class="bc-title">Future Plans</h3>
+        <ul style="color:var(--text-sec); margin-left: 20px; font-size: 1.05rem; line-height: 1.8; margin-top: 10px;">
+          <li>AI-driven predictive crime heatmaps</li>
+          <li>Automated drone deployment via SOS</li>
+          <li>Live audio/video streaming to contacts</li>
+          <li>Wearable device integrations (Smartwatches)</li>
+          <li>Direct API link to local law enforcement</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════
      DOWNLOAD
 ══════════════════════════════════════════════ -->
 <section class="section" id="download" aria-labelledby="dl-title">
@@ -376,32 +415,23 @@
           Requires Android 5.0 (API 21) or higher.
         </p>
 
-        <!-- Primary: GitHub Releases direct download -->
+        <!-- Smart Download Button -->
         <a
-          href="https://github.com/NavDevs/SafeCity/releases/download/v1.0.0/SafeCity.apk"
-          target="_blank"
-          rel="noopener noreferrer"
+          href="downloads/SafeCity-arm64-v8a.apk"
           class="btn btn-dl"
           id="dl-btn"
-          aria-label="Download APK from GitHub Releases"
+          aria-label="Download APK"
         >
           <span class="dl-btn-icon">⬇️</span>
-          Download APK — v1.0.0
+          Download Prototype
         </a>
 
-        <!-- Fallback: Google Drive (works on all mobile browsers) -->
-        <a
-          href="https://drive.google.com/drive/folders/1Osf8jMaN_GrT0kpfCPdcXufKZ2qOa4-k?usp=sharing"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="btn btn-ghost btn-dl-alt"
-          id="dl-btn-drive"
-          aria-label="Download APK from Google Drive"
-          style="margin-top:14px;background:rgba(255,255,255,0.15);color:#fff;border:1.5px solid rgba(255,255,255,0.3);backdrop-filter:blur(8px);"
-        >
-          <span>☁️</span>
-          Also on Google Drive
-        </a>
+        <!-- ABI picker for advanced users -->
+        <div class="abi-row" id="abi-row">
+          <span class="abi-label">Other versions:</span>
+          <a href="downloads/SafeCity-armeabi-v7a.apk" class="abi-chip" id="dl-v7a">32-bit (arm)</a>
+          <a href="downloads/SafeCity-x86_64.apk" class="abi-chip" id="dl-x64">x86_64</a>
+        </div>
 
         <div class="dl-notes">
           <div class="dl-note"><span>🤖</span> Android 5.0+</div>

@@ -31,6 +31,7 @@ Visit the landing page to learn more and download the APK:
 | Platform | Link |
 |---|---|
 | 🤖 Android APK (Direct) | [**Download SafeCity.apk**](https://github.com/NavDevs/SafeCity/releases/latest/download/SafeCity.apk) |
+| ☁️ Google Drive | [**Download from Google Drive**](https://drive.google.com/drive/folders/1Osf8jMaN_GrT0kpfCPdcXufKZ2qOa4-k) |
 | 📦 GitHub Release | [View Release v1.0.0](https://github.com/NavDevs/SafeCity/releases/tag/v1.0.0) |
 
 **Requirements:** Android 5.0 (API 21) or higher · ~114 MB
