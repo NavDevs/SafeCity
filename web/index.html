@@ -376,15 +376,31 @@
           Requires Android 5.0 (API 21) or higher.
         </p>
 
+        <!-- Primary: GitHub Releases direct download -->
         <a
-          href="https://github.com/NavDevs/SafeCity/releases/latest/download/SafeCity.apk"
-          download="SafeCity.apk"
+          href="https://github.com/NavDevs/SafeCity/releases/download/v1.0.0/SafeCity.apk"
+          target="_blank"
+          rel="noopener noreferrer"
           class="btn btn-dl"
           id="dl-btn"
-          aria-label="Download APK directly"
+          aria-label="Download APK from GitHub Releases"
         >
           <span class="dl-btn-icon">⬇️</span>
-          Download APK Directly
+          Download APK — v1.0.0
+        </a>
+
+        <!-- Fallback: Google Drive (works on all mobile browsers) -->
+        <a
+          href="https://drive.google.com/drive/folders/1Osf8jMaN_GrT0kpfCPdcXufKZ2qOa4-k?usp=sharing"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="btn btn-ghost btn-dl-alt"
+          id="dl-btn-drive"
+          aria-label="Download APK from Google Drive"
+          style="margin-top:14px;background:rgba(255,255,255,0.15);color:#fff;border:1.5px solid rgba(255,255,255,0.3);backdrop-filter:blur(8px);"
+        >
+          <span>☁️</span>
+          Also on Google Drive
         </a>
 
         <div class="dl-notes">
