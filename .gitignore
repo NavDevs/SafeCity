@@ -44,7 +44,7 @@ app.*.map.json
 /android/app/profile
 /android/app/release
 # Large APK file - host separately (e.g. GitHub Releases)
-web/downloads/*.apk
+# Large APK file - hosted directly on Netlify (Split APKs <100MB)
 
 # Resize script
 resize_icon.py
